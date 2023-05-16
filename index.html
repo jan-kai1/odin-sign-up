@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <link rel="stylesheet" href="style.css">
+    <title>Password Manager</title>
+</head>
+<body>
+    <!-- Create a sticky nav bar-->
+    <div class="navbar">
+        <div class="navitem">
+            <img src="https://upload.wikimedia.org/wikipedia/en/9/9a/Trollface_non-free.png" alt="image place">
+        </div>
+        <div class="navright">
+            <div class="navitem">
+                Login
+            </div>
+        </div>
+    </div>
+    <header>
+       
+    </header>
+    <div class="container">
+        <div class="banner">
+            <span id="bannermessage">
+                Reject Godhood. Return to Monkey.
+            </span>
+        </div>
+        <div class="formcontainer">
+            <legend>Register Now
+                <p>"A new experience, return to your roots"</p>
+            </legend>
+            <form action="/register-user" method="post">
+               
+                <div class="formholder">
+                    <fieldset>
+                        <div class="form-line">
+                            <label for="username">Username</label>
+                            <input type="text" name="username">
+                        </div>
+                        <div class="form-line">
+                            <label for="email">Email</label>
+                            <input type="email" name="email">
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                       <div class="form-line">
+                           <label for="password">Password</label>
+                           <input type="password" name="password">
+                       </div>
+                       <div class="form-line">
+                           <label for="confirmpass">Confirm Password</label>
+                           <input type="password" name="confirmpassword">
+                       </div>
+                    </fieldset>
+                </div>
+                <button type="button">Register Account</button>
+                <p>Already have an account? <a href="/login">Log In</a></p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
